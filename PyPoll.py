@@ -108,5 +108,4 @@ winning_candidate_summary = (
 
 # Print the candidate vote dictionary.  
 print(candidate_votes)
-
 print(winning_candidate_summary)
