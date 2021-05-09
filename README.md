@@ -10,8 +10,23 @@ A Colorado Board of Elections employee has given you the following task to compl
 5. The winner of the election based on popular vote
 
 ## Resources
-
-Data Source: election_results.csv
-Software: Python 3.6.1, Visiual Studio Code, 1.38.1
+- Data Source: election_results.csv
+- Software: Python 3.6.1, Visiual Studio Code, 1.38.1
 
 ## Summary 
+The ANalysis of Election show that:
+- There were "369,711" votes cast in the election.
+- The Candidates were:
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+- The Candidates Results were:
+    - Charles Casper Stockham received 23.0% of the votes and number of votes 85,213.
+    - Diana DeGette received 73.8% of the votes and number of votes 272,892.
+    - Raymon Anthony Doane received 3.1% of the votes and number of votes 11,606.
+- The winner of the election was:
+    - Diana DeGette, who received 73.8% of the votes and number of votes 272,892.
+
+## Challenge Overview
+
+## Challenge Summary
