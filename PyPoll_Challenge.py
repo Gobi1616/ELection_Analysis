@@ -19,7 +19,7 @@ candidate_votes = {}
 
 # 1: Create a county list and county votes dictionary.
 county_list = ["Arapahoe","Denver","Jefferson"]
-county_vote = {'Arapahoe': 422829, 'Denver': 463353, 'Jefferson': 38855}
+county_vote = {'Arapahoe': 24801, 'Denver': 306055, 'Jefferson': 38855}
 
 
 # Track the winning candidate, vote count and percentage
@@ -98,9 +98,10 @@ with open(file_to_save, "w") as txt_file:
         votes = county_vote.get(county_name)
         # 6c: Calculate the percentage of votes for the county.
         vote_percentage = float(votes) / float(total_votes) * 100
-
+        county_results = (
+            f"{county_name}: {vote_percentage:.1f}% ({votes:,})\n")
          # 6d: Print the county results to the terminal.
-        county_results = (f"{county_name}: {vote_percentage:.1f}% ({votes:,})\n")
+        print(county_results)
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
          # 6f: Write an if statement to determine the winning county and get its vote count.
@@ -108,6 +109,7 @@ with open(file_to_save, "w") as txt_file:
             largest_county_vote = votes
             largest_county = county_name
             largest_county_percentage = vote_percentage
+
 
     # 7: Print the county with the largest turnout to the terminal.
     largest_county_turnout_summary = (
