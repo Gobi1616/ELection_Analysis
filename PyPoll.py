@@ -29,7 +29,7 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 with open(file_to_save, "w") as txt_file:
 
     # Write some data to the file.
-    txt_file.write("Counties in the Election\n----------------------------------\nArapahoe\nDenver\nJefferson")
+    txt_file.write("Counties in the Election\n--------------\nArapahoe\nDenver\nJefferson")
 
 # Add our dependencies.
 import csv
@@ -100,12 +100,13 @@ for candidate_name in candidate_votes:
 
 
 winning_candidate_summary = (
-    f"---------------------------------------\n"
+    f"-------------------------\n"
     f"Winner: {winning_candidate}\n"
     f"Winning Vote Count: {winning_count:,}\n"
     f"Winning Percentage: {winning_percentage:.1f}%\n"
-    f"---------------------------------------\n")
+    f"-------------------------\n")
 
 # Print the candidate vote dictionary.  
 print(candidate_votes)
+
 print(winning_candidate_summary)
