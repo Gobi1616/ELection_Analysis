@@ -28,5 +28,10 @@ The ANalysis of Election show that:
     - Diana DeGette, who received 73.8% of the votes and number of votes 272,892.
 
 ## Challenge Overview
+A Colorado Board of Elections results from the election audit of a recent congressional election based on COunty Votes.
+
+1. The voter turnout for each county
+2. The percentage of votes from each county out of the total count
+3. The county with the highest turnout
 
 ## Challenge Summary
