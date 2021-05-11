@@ -51,7 +51,7 @@ The Analysis of Election show that:
     -  Jefferson county received 10.5% of the votes and number of votes 38,855.
     -  Denver county received 82.8% of the votes and number of votes 306,055.    
     -  Arapahoe county received 6.7% of the votes and number of votes 24,801.
-- Winning county of the election and the largest number of votes?
+- Winning county of the election and the largest number of votes:
     -  Denver county received 82.8% of the votes and number of votes 306,055. 
 - The Candidates results were:
     - Charles Casper Stockham received 23.0% of the votes and number of votes 85,213.
@@ -61,6 +61,8 @@ The Analysis of Election show that:
     - Diana DeGette, who received 73.8% of the votes and number of votes 272,892.
 
 ### Election-Audit Summary
+![image](https://user-images.githubusercontent.com/82549869/117897119-11e22480-b290-11eb-8cee-4d2f1cd708a6.png)
+
 As per the above election results summary figure, this script can be modified and used based below listed two main catagories:
 1. Conty Vote Results
 2. Candidate Results
